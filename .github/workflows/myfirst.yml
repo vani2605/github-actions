@@ -12,6 +12,6 @@ jobs:
     secondjob:
         runs-on: ubuntu
         steps:
-            name: Install
+        -   name: Install
             run: yum install telnet        
         
